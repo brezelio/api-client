@@ -173,9 +173,9 @@ class Client
     /**
      * @throws ApiException
      */
-    public function webhook(string $event, ?string $module, ?int $entityId): array|string
+    public function webhook(string $event, ?string $module, ?int $entityId, ?array $data = null): array|string
     {
-        return $this->postSystemRequest(array_filter(['webhook', $event, $module, $entityId]));
+        return $this->postSystemRequest(array_filter(['webhook', $event, $module, $entityId]), $data ?? []);
     }
 
     /**
