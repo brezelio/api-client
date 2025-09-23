@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/brezelio/api-client-php/compare/v1.2.0...v1.2.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* add missing $data parameter for webhook() ([e34ab42](https://github.com/brezelio/api-client-php/commit/e34ab427159b0b5ee509f4fde3506c401a990add))
+
 # [1.2.0](https://github.com/brezelio/api-client-php/compare/v1.1.2...v1.2.0) (2024-10-30)
 
 
